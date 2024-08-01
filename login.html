@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Estkdam</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <link href="https://iconsax.gitlab.io/i/icons.css" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/sal.css" />
+    <link rel="stylesheet" href="css/select2.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body class="internal-body">
+    <!-- preloader -->
+    <div class="preloader">
+      <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+    <!-- preloader -->
+
+    <div class="body-wrapper">
+      <div class="form-section">
+        <div class="sign-section">
+          <figure class="form-logo">
+            <img src="images/blue-logo.png" alt="logo" />
+          </figure>
+          <h3 class="form-title">ابدأ رحلة الإستقدام الأن</h3>
+          <p class="form-text">
+            انضم إلى منصة المصدر الدولي للإستقدام لتستطيع الحصول على العمالة
+            المخصصة لك
+          </p>
+          <form action="">
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-input"
+                placeholder="البريد الإلكتروني"
+              />
+            </div>
+            <div class="form-group">
+              <div class="form-input-relative">
+                <span class="icon-placeholder">
+                  <i class="las la-lock"></i>
+                </span>
+                <label class="password-show">
+                  <input type="checkbox" onchange="showPass(this)" />
+                  <i class="iconsax" icon-name="eye"></i>
+                </label>
+                <input
+                  type="password"
+                  class="form-input"
+                  placeholder="كلمة المرور"
+                />
+              </div>
+            </div>
+            <a href="forget-password.html" class="forget-password">
+              هل نسيت كلمة المرور؟
+            </a>
+            <div class="form-btn-cont">
+              <button class="form-btn" type="submit">تسجيل الدخول</button>
+            </div>
+          </form>
+          <div class="register-ancor">
+            <span class="register-span"
+              >لا تملك حساب على منصة المصدر الدولى للإستقدام؟</span
+            >
+            <a href="sign-up.html" class="register-btn"> إنشاء حساب</a>
+          </div>
+          <a href="#" class="agent-ancor">هل تريد الإنضمام كوكيل خارجى؟</a>
+        </div>
+        <div class="footer-container">
+          <a href="index.html">
+            <figure class="footer-container-logo">
+              <img src="images/logo.png" alt="logo" />
+            </figure>
+          </a>
+          <div class="social-cont">
+            <span class="social-text">تابعنا على:</span>
+            <div class="social">
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-pinterest-p"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img-bg-cont">
+        <div class="img-bg-slider">
+          <div class="person-card-slider">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="about-card">
+                    <div class="card-flex">
+                      <figure>
+                        <img src="images/about/profile.png" alt="profile" />
+                      </figure>
+                      <div class="card-info">
+                        <span class="card-name"> أحمد محمد </span>
+                        <span class="card-job">سائق خاص</span>
+                        <span class="card-national">
+                          <img
+                            class="card-flag"
+                            src="images/about/flag.png"
+                            alt="flag"
+                          />
+                          جمهورية مصر العربية</span
+                        >
+                      </div>
+                    </div>
+                    <div class="card-features">
+                      <div class="features-item">
+                        <i class="iconsax" icon-name="wallet-1"></i>
+                        <span class="features-name">المهنة:</span>
+                        <span class="features-text">سائق خاص</span>
+                      </div>
+                      <div class="features-item">
+                        <i class="iconsax" icon-name="user-2-circle"></i>
+                        <span class="features-name">الحالة الإجتماعية:</span>
+                        <span class="features-text">أعزب</span>
+                      </div>
+                      <div class="features-item">
+                        <i class="iconsax" icon-name="star"></i>
+                        <span class="features-name">الخبرة:</span>
+                        <span class="features-text">3 سنوات</span>
+                      </div>
+                      <div class="features-item">
+                        <i class="iconsax" icon-name="dollar-square"></i>
+                        <span class="features-name">الراتب:</span>
+                        <span class="features-text">+2000 ريال سعودي</span>
+                      </div>
+                    </div>
+                    <a href="#" class="custom-btn">تفاصيل أكثر</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about-card">
+                    <div class="card-flex">
+                      <figure>
+                        <img src="images/about/profile.png" alt="profile" />
+                      </figure>
+                      <div class="card-info">
+                        <span class="card-name"> أحمد محمد </span>
+                        <span class="card-job">سائق خاص</span>
+                        <span class="card-national">
+                          <img
+                            class="card-flag"
+                            src="images/about/flag.png"
+                            alt="flag"
+                          />
+                          جمهورية مصر العربية</span
+                        >
+                      </div>
+                    </div>
+                    <div class="card-features">
+                      <div class="features-item">
+                        <i class="iconsax" icon-name="wallet-1"></i>
+                        <span class="features-name">المهنة:</span>
+                        <span class="features-text">سائق خاص</span>
+                      </div>
+                      <div class="features-item">
+                        <i class="iconsax" icon-name="user-2-circle"></i>
+                        <span class="features-name">الحالة الإجتماعية:</span>
+                        <span class="features-text">أعزب</span>
+                      </div>
+                      <div class="features-item">
+                        <i class="iconsax" icon-name="star"></i>
+                        <span class="features-name">الخبرة:</span>
+                        <span class="features-text">3 سنوات</span>
+                      </div>
+                      <div class="features-item">
+                        <i class="iconsax" icon-name="dollar-square"></i>
+                        <span class="features-name">الراتب:</span>
+                        <span class="features-text">+2000 ريال سعودي</span>
+                      </div>
+                    </div>
+                    <a href="#" class="custom-btn">تفاصيل أكثر</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about-card">
+                    <div class="card-flex">
+                      <figure>
+                        <img src="images/about/profile.png" alt="profile" />
+                      </figure>
+                      <div class="card-info">
+                        <span class="card-name"> أحمد محمد </span>
+                        <span class="card-job">سائق خاص</span>
+                        <span class="card-national">
+                          <img
+                            class="card-flag"
+                            src="images/about/flag.png"
+                            alt="flag"
+                          />
+                          جمهورية مصر العربية</span
+                        >
+                      </div>
+                    </div>
+                    <div class="card-features">
+                      <div class="features-item">
+                        <i class="iconsax" icon-name="wallet-1"></i>
+                        <span class="features-name">المهنة:</span>
+                        <span class="features-text">سائق خاص</span>
+                      </div>
+                      <div class="features-item">
+                        <i class="iconsax" icon-name="user-2-circle"></i>
+                        <span class="features-name">الحالة الإجتماعية:</span>
+                        <span class="features-text">أعزب</span>
+                      </div>
+                      <div class="features-item">
+                        <i class="iconsax" icon-name="star"></i>
+                        <span class="features-name">الخبرة:</span>
+                        <span class="features-text">3 سنوات</span>
+                      </div>
+                      <div class="features-item">
+                        <i class="iconsax" icon-name="dollar-square"></i>
+                        <span class="features-name">الراتب:</span>
+                        <span class="features-text">+2000 ريال سعودي</span>
+                      </div>
+                    </div>
+                    <a href="#" class="custom-btn">تفاصيل أكثر</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about-card">
+                    <div class="card-flex">
+                      <figure>
+                        <img src="images/about/profile.png" alt="profile" />
+                      </figure>
+                      <div class="card-info">
+                        <span class="card-name"> أحمد محمد </span>
+                        <span class="card-job">سائق خاص</span>
+                        <span class="card-national">
+                          <img
+                            class="card-flag"
+                            src="images/about/flag.png"
+                            alt="flag"
+                          />
+                          جمهورية مصر العربية</span
+                        >
+                      </div>
+                    </div>
+                    <div class="card-features">
+                      <div class="features-item">
+                        <i class="iconsax" icon-name="wallet-1"></i>
+                        <span class="features-name">المهنة:</span>
+                        <span class="features-text">سائق خاص</span>
+                      </div>
+                      <div class="features-item">
+                        <i class="iconsax" icon-name="user-2-circle"></i>
+                        <span class="features-name">الحالة الإجتماعية:</span>
+                        <span class="features-text">أعزب</span>
+                      </div>
+                      <div class="features-item">
+                        <i class="iconsax" icon-name="star"></i>
+                        <span class="features-name">الخبرة:</span>
+                        <span class="features-text">3 سنوات</span>
+                      </div>
+                      <div class="features-item">
+                        <i class="iconsax" icon-name="dollar-square"></i>
+                        <span class="features-name">الراتب:</span>
+                        <span class="features-text">+2000 ريال سعودي</span>
+                      </div>
+                    </div>
+                    <a href="#" class="custom-btn">تفاصيل أكثر</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="slider-title">اختر من بين مجموعة كبيرة من العمالة</h3>
+          <p class="slider-pargh">
+            تمتع بالقدرة على اختيار العمالة المميزة من بين أكثر من 20 دولة
+            مختلفة وأكثر من 15 وظيفة مختلفة لتحصل على العامل المناسب لإحتياجاتك
+          </p>
+          <div class="swiper-btn-cont">
+            <div class="swiper-btn-prev swiper-btn">
+              <i class="iconsax" icon-name="chevron-right"></i>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-btn-next swiper-btn">
+              <i class="iconsax" icon-name="chevron-left"></i>
+            </div>
+          </div>
+          <figure class="bg-2">
+            <img src="images/order/sm-dot.png" alt="bg" />
+          </figure>
+        </div>
+
+        <figure class="bg-1">
+          <img src="images/order/big-dot.png" alt="bg" />
+        </figure>
+        <figure class="bg-3">
+          <img src="images/order/circle.png" alt="bg" />
+        </figure>
+      </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/sal.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Estkdam</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <link href="https://iconsax.gitlab.io/i/icons.css" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/sal.css" />
+    <link rel="stylesheet" href="css/select2.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+    <!-- preloader -->
+    <!-- header section -->
+    <header>
+      <div class="top-header">
+        <div class="container">
+          <div class="nav-header">
+            <div class="dropdown d-lg-none">
+              <div class="user-cont">
+                <i class="iconsax" icon-name="user-2-circle"></i>
+              </div>
+              <div class="dropdown-content">
+                <a class="cat-drop" href="#">الصفحة الشخصية</a>
+                <a class="cat-drop" href="#">تسجيل الخروج</a>
+              </div>
+            </div>
+            <figure class="img-logo">
+              <a href="index.html"
+                ><img src="images/logo.png" class="img-fluid"
+              /></a>
+            </figure>
+            <div class="navgition">
+              <div class="nav-head">
+                <figure class="img-logo">
+                  <a href="index.html"
+                    ><img src="images/logo.png" class="img-fluid"
+                  /></a>
+                </figure>
+                <button class="close-menu">
+                  <img src="images/icon/menu.png" alt="icon" />
+                </button>
+              </div>
+              <ul class="big-menu list-unstyled">
+                <li>
+                  <a href="index.html"> الرئيسية </a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="#"> خدماتنا</a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="#">نقل ملكية</a>
+                    </li>
+                    <li>
+                      <a href="#">طلب استقدام</a>
+                    </li>
+                    <li>
+                      <a href="#">نقل كفالة</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="#"> عن الإستقدام </a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="#">رحلة الاستقدام</a>
+                    </li>
+                    <li>
+                      <a href="#">سياسات الاستقدام</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="#"> الدعم</a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="#">تواصل معنا</a>
+                    </li>
+                    <li>
+                      <a href="#">أسئلة شائعة</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="header-btn">
+                <a href="#" class="login-ancor"> تسجيل الدخول</a>
+                <a href="#" class="join-ancor"> انضم الأن</a>
+              </div>
+            </div>
+            <div class="header-btn">
+              <a href="#" class="login-ancor"> تسجيل الدخول</a>
+              <a href="#" class="join-ancor"> انضم الأن</a>
+              <a href="#" class="join-ancor d-none">
+                <i class="iconsax" icon-name="user-2-circle"></i>
+                <span>الصفحة الشخصية</span>
+              </a>
+            </div>
+            <div class="show-icons">
+              <button class="menu-bars" id="menu-id">
+                <img src="images/icon/menu.png" alt="icon" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header section     -->
+    <!-- content section     -->
+    <section class="content-section profile-section">
+      <div class="container">
+        <div class="profile-header-cont">
+          <h2 class="profile-title">منصة التحكم</h2>
+          <a href="#" class="desk-ancor">
+            <i class="iconsax" icon-name="message-dots"></i>
+            <span>التواصل مع الإدارة</span>
+          </a>
+        </div>
+        <div class="profile-cont">
+          <div class="profile-card">
+            <div class="profile-img">
+              <figure>
+                <img src="images/desk-profile.png" alt="profile-img" />
+              </figure>
+              <a href="profile-setting.html" class="profile-link"
+                ><i class="iconsax" icon-name="camera"></i
+              ></a>
+            </div>
+            <h4 class="profile-name">اسم المكتب</h4>
+            <div class="member-text">شريك منذ : <span>أكتوبر 2023</span></div>
+            <div class="profile-card-info">
+              <div class="profile-card-cont">
+                <span class="card-label">البريد الإلكترونى</span>
+                <span class="card-text">mohamed.ahmed.abdg453@gmail.com</span>
+              </div>
+              <div class="profile-card-cont">
+                <span class="card-label">رقم الجوال</span>
+                <span class="card-text">+966551548415152</span>
+              </div>
+              <div class="profile-card-cont">
+                <span class="card-label">الموقع</span>
+                <span class="card-text">جدة، المملكة العربية السعودية</span>
+              </div>
+              <div class="profile-card-cont">
+                <span class="card-label">السجل التجارى</span>
+                <span class="card-text">اكتب هنا معلومات السجل</span>
+              </div>
+            </div>
+            <a href="desk-setting.html" class="profile-ancor"
+              >تعديل معلومات المكتب</a
+            >
+          </div>
+          <div class="profile-info">
+            <div class="profile-info-container">
+              <div class="news-header">
+                <h4 class="news-head">الموظفين</h4>
+                <a href="employees-page.html" class="profile-more">شاهد الكل</a>
+              </div>
+              <div class="col-items">
+                <div class="person-profile-card">
+                  <div class="person-profile-info">
+                    <div class="about-card">
+                      <div class="about-card-container">
+                        <div class="card-flex">
+                          <figure>
+                            <img src="images/about/profile.png" alt="profile" />
+                          </figure>
+                          <div class="card-info">
+                            <span class="card-name"> أحمد محمد </span>
+                            <span class="card-national">
+                              <img
+                                class="card-flag"
+                                src="images/about/flag.png"
+                                alt="flag"
+                              />
+                              جمهورية مصر العربية</span
+                            >
+                          </div>
+                        </div>
+                        <div class="Permissions-features">
+                          <span class="Permissions-name">الصلاحيات</span>
+                          <ul class="Permissions-list">
+                            <li>
+                              <i class="iconsax" icon-name="tick-circle"></i
+                              ><span>التواصل مع الإدارة</span>
+                            </li>
+                            <li class="disable">
+                              <i class="iconsax" icon-name="x-circle"></i
+                              ><span>اضافة السير الذاتية</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Permissions-btn-cont">
+                    <a href="#" class="Permissions-edit">
+                      <i class="iconsax" icon-name="edit-2"></i>
+                      <span>تعديل بيانات العامل</span>
+                    </a>
+                    <a href="#" class="Permissions-edit">
+                      <i class="iconsax" icon-name="key"></i>
+                      <span>تعديل صلاحيات العامل</span>
+                    </a>
+                    <button type="button" class="Permissions-btn">
+                      <i class="iconsax" icon-name="trash"></i>
+                      <span>حذف عامل</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="person-profile-card">
+                  <div class="person-profile-info">
+                    <div class="about-card">
+                      <div class="about-card-container">
+                        <div class="card-flex">
+                          <figure>
+                            <img src="images/about/profile.png" alt="profile" />
+                          </figure>
+                          <div class="card-info">
+                            <span class="card-name"> أحمد محمد </span>
+                            <span class="card-national">
+                              <img
+                                class="card-flag"
+                                src="images/about/flag.png"
+                                alt="flag"
+                              />
+                              جمهورية مصر العربية</span
+                            >
+                          </div>
+                        </div>
+                        <div class="Permissions-features">
+                          <span class="Permissions-name">الصلاحيات</span>
+                          <ul class="Permissions-list">
+                            <li>
+                              <i class="iconsax" icon-name="tick-circle"></i
+                              ><span>التواصل مع الإدارة</span>
+                            </li>
+                            <li>
+                              <i class="iconsax" icon-name="tick-circle"></i
+                              ><span>اضافة السير الذاتية</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Permissions-btn-cont">
+                    <a href="#" class="Permissions-edit">
+                      <i class="iconsax" icon-name="edit-2"></i>
+                      <span>تعديل بيانات العامل</span>
+                    </a>
+                    <a href="#" class="Permissions-edit">
+                      <i class="iconsax" icon-name="key"></i>
+                      <span>تعديل صلاحيات العامل</span>
+                    </a>
+                    <button type="button" class="Permissions-btn">
+                      <i class="iconsax" icon-name="trash"></i>
+                      <span>حذف عامل</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="profile-info-container">
+              <div class="news-header">
+                <h4 class="news-head">السير الذاتية</h4>
+                <button class="profile-more">شاهد الكل</button>
+              </div>
+              <div class="col-items">
+                <div class="person-profile-card">
+                  <div class="person-profile-info">
+                    <div class="about-card">
+                      <div class="about-card-container">
+                        <div class="card-flex">
+                          <figure>
+                            <img src="images/about/profile.png" alt="profile" />
+                          </figure>
+                          <div class="card-info">
+                            <span class="card-name"> أحمد محمد </span>
+                            <span class="card-national">
+                              <img
+                                class="card-flag"
+                                src="images/about/flag.png"
+                                alt="flag"
+                              />
+                              جمهورية مصر العربية</span
+                            >
+                          </div>
+                        </div>
+                        <div class="card-features">
+                          <div class="features-item">
+                            <i class="iconsax" icon-name="wallet-1"></i>
+                            <span class="features-name">المهنة:</span>
+                            <span class="features-text">سائق خاص</span>
+                          </div>
+                          <div class="features-item">
+                            <i class="iconsax" icon-name="user-2-circle"></i>
+                            <span class="features-name"
+                              >الحالة الإجتماعية:</span
+                            >
+                            <span class="features-text">أعزب</span>
+                          </div>
+                          <div class="features-item">
+                            <i class="iconsax" icon-name="star"></i>
+                            <span class="features-name">الخبرة:</span>
+                            <span class="features-text">3 سنوات</span>
+                          </div>
+                          <div class="features-item">
+                            <i class="iconsax" icon-name="dollar-square"></i>
+                            <span class="features-name">الراتب:</span>
+                            <span class="features-text">+2000 ريال سعودي</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Permissions-btn-cont">
+                    <a href="#" class="Permissions-edit">
+                      <i class="iconsax" icon-name="edit-2"></i>
+                      <span>تعديل البيانات</span>
+                    </a>
+                    <button type="button" class="Permissions-btn">
+                      <i class="iconsax" icon-name="trash"></i>
+                      <span>حذف عامل</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="person-profile-card">
+                  <div class="person-profile-info">
+                    <div class="about-card">
+                      <div class="about-card-container">
+                        <div class="card-flex">
+                          <figure>
+                            <img src="images/about/profile.png" alt="profile" />
+                          </figure>
+                          <div class="card-info">
+                            <span class="card-name"> أحمد محمد </span>
+                            <span class="card-national">
+                              <img
+                                class="card-flag"
+                                src="images/about/flag.png"
+                                alt="flag"
+                              />
+                              جمهورية مصر العربية</span
+                            >
+                          </div>
+                        </div>
+                        <div class="card-features">
+                          <div class="features-item">
+                            <i class="iconsax" icon-name="wallet-1"></i>
+                            <span class="features-name">المهنة:</span>
+                            <span class="features-text">سائق خاص</span>
+                          </div>
+                          <div class="features-item">
+                            <i class="iconsax" icon-name="user-2-circle"></i>
+                            <span class="features-name"
+                              >الحالة الإجتماعية:</span
+                            >
+                            <span class="features-text">أعزب</span>
+                          </div>
+                          <div class="features-item">
+                            <i class="iconsax" icon-name="star"></i>
+                            <span class="features-name">الخبرة:</span>
+                            <span class="features-text">3 سنوات</span>
+                          </div>
+                          <div class="features-item">
+                            <i class="iconsax" icon-name="dollar-square"></i>
+                            <span class="features-name">الراتب:</span>
+                            <span class="features-text">+2000 ريال سعودي</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Permissions-btn-cont">
+                    <a href="#" class="Permissions-edit">
+                      <i class="iconsax" icon-name="edit-2"></i>
+                      <span>تعديل البيانات</span>
+                    </a>
+                    <button type="button" class="Permissions-btn">
+                      <i class="iconsax" icon-name="trash"></i>
+                      <span>حذف عامل</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- content section     -->
+    <!-- footer section -->
+    <footer>
+      <div class="container">
+        <a href="index.html" class="footer-logo">
+          <figure>
+            <img src="images/logo.png" alt="logo" />
+          </figure>
+        </a>
+        <div class="footer-cont">
+          <div class="footer-info">
+            <span class="news-span"
+              >اشترك معنا لتكون مطلع على أحدث الإضافات</span
+            >
+            <div class="email-cont">
+              <form action="">
+                <input
+                  class="email-input"
+                  type="email"
+                  placeholder="اكتب بريدك الإلكترونى"
+                />
+                <button class="email-btn">
+                  <i class="iconsax" icon-name="arrow-left"></i>
+                </button>
+              </form>
+            </div>
+            <div class="footer-head">منصة المصدر الدولي للإستقدام</div>
+            <div class="footer-list">
+              <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">طلب الإستقدام</a></li>
+                <li><a href="#">نقل كفالة</a></li>
+                <li><a href="#">تواصل معنا</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <h3 class="footer-head">التواصل</h3>
+            <a class="footer-email" href="mailto:email@gmail.com"
+              >email@gmail.com</a
+            >
+            <a class="footer-email" href="tel:+96 15 754411184"
+              >+96 15 754411184</a
+            >
+          </div>
+        </div>
+        <div class="footer-rights">
+          <div class="copy-rights">
+            © حقوق الطبع والنشر محفوظة لدى منصة المصدر الدولي للإستقدام
+          </div>
+          <div class="social">
+            <a href="#" class="social-link">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fa-brands fa-pinterest-p"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section -->
+    <!-- arrow to top -->
+    <button class="arrow-top">
+      <i class="iconsax" icon-name="arrow-up"></i>
+    </button>
+    <!-- arrow to top -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/sal.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- News Modal -->
+    <div
+      class="modal fade news-modal"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="news-header">
+            <h4 class="news-head">أخر الأحداث</h4>
+            <button
+              type="button"
+              class="close-modal"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="iconsax" icon-name="x-circle"></i>
+            </button>
+          </div>
+          <div class="col-items">
+            <div class="news-item">
+              <div class="news-flex">
+                <div class="news-icon">
+                  <i class="iconsax" icon-name="bell-1"></i>
+                </div>
+                <div class="news-info">
+                  <div class="news-name">
+                    العمالة الخاصة بحضراتكم ستكون جاهزة غداً
+                  </div>
+                  <div class="news-text">
+                    تهانينا! ، العمالة الخاصة بحضراتكم ستكون جاهزة غداً يمكنك
+                    التواصل معنا اذا اردت التعرف على المزيد من التفاصيل
+                  </div>
+                </div>
+              </div>
+              <div class="news-date">12 يناير 2024</div>
+            </div>
+            <div class="news-item">
+              <div class="news-flex">
+                <div class="news-icon">
+                  <i class="iconsax" icon-name="bell-1"></i>
+                </div>
+                <div class="news-info">
+                  <div class="news-name">
+                    تمت الموافقة على طلب الإستقدام الخاص بكم
+                  </div>
+                  <div class="news-text">
+                    تمت الموافقة على طلب الإستقدام الخاص بكم بانتظار اكمال باقى
+                    الإجراءات، سيتم التواصل معكم فى حالة وجود جديد.
+                  </div>
+                </div>
+              </div>
+              <div class="news-date">2 يناير 2024</div>
+            </div>
+            <div class="news-item">
+              <div class="news-flex">
+                <div class="news-icon">
+                  <i class="iconsax" icon-name="bell-1"></i>
+                </div>
+                <div class="news-info">
+                  <div class="news-name">
+                    جارى التحقق من البيانات الخاصة بكم من أجل تأكيد الطلب
+                  </div>
+                  <div class="news-text">
+                    جارى التحقق من جميع البيانات المقدمة من أجل تأكيج طلب
+                    الإستقدام الخاص بكم
+                  </div>
+                </div>
+              </div>
+              <div class="news-date">12 يناير 2024</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
